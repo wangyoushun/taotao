@@ -18,5 +18,6 @@ public class UserServiceImpl implements IUserService {
 	public List<User> queryUsers() {
 		return userMap.queryUsers();
 	}
+	
 
 }
